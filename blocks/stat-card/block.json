@@ -1,0 +1,15 @@
+{
+  "apiVersion": 2,
+  "name": "teal/stat-card",
+  "title": "Stat Card (Server Rendered)",
+  "category": "widgets",
+  "description": "A server-rendered stat card with safe attribute handling and accessible markup.",
+  "textdomain": "teal-sample",
+  "attributes": {
+    "label": { "type": "string", "default": "Uptime" },
+    "value": { "type": "string", "default": "99.9%" },
+    "note": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "render": "file:./render.php"
+}
